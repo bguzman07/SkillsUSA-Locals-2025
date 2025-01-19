@@ -1,0 +1,155 @@
+
+/* Base Styles */
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/Path.jpeg);
+    color: white;
+}
+
+.content {
+    background-color: rgba(108, 207, 223, 0.884);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    border: rgba(255, 255, 255, 0.5) double 5px;
+}
+
+img {
+    width: 30%;
+    border-radius: 1em;
+}
+
+/* Text Styles */
+
+a {
+    color: rgb(215, 250, 255);
+}
+
+
+
+/* Navigation Styles */
+
+nav {
+    background-color: rgb(146, 146, 146);
+    padding: 2px;
+    border-radius: 1em;
+    border: rgba(255, 255, 255, 0.5) double 5px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: .5em;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgba(255, 124, 76, 0.884);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+/* Home Page Styles */
+
+.titleBox {
+    display: flex;
+
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.titleBox div {
+    padding: 1em;
+    border-radius: 1em;
+    flex: 50%;
+}
+
+.titleBox img {
+    width: 100%;
+    border: white solid .3em;
+}
+
+
+/* Adoption Styles */
+
+.adoptCards {
+    background-color: rgba(255, 124, 76, 0.884);
+    border-radius: 1em;
+    margin: 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: white solid .2em;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    max-width: 400px;
+    padding: 1em;
+}
+
+.allAdopt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adoptCards img {
+    width: 100%;
+    border: white dotted .2em;
+}
+
+
+/* Volunterring Styles */
+
+.volNotes {
+    background-color: rgba(255, 124, 76, 0.884);
+    padding: .5em;
+    border-radius: 1em;
+    border: white solid 3px;
+}
+
+
+/* FAQ Styles */
+
+.faqQuestions {
+    display: flex;
+}
+
+.faqQuestions li {
+    padding: .5em;
+    border-radius: .5em;
+    border: white solid 2px;
+    list-style: none;
+    margin: .5em;
+    background-color: rgba(255, 124, 76, 0.884);
+}
+
+/* More Info Styles */
+
+
+
+
+/* Footer Styles */
+
+footer {
+    bottom: 0px;
+    background-color: rgba(90, 90, 90, 0.603);
+    border-radius: 1em;
+    border: rgba(255, 255, 255, 0.397) double 5px;
+}
+
+footer ul {
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
